@@ -2,12 +2,12 @@
 
 Installation
 ---
-`npm install mocha -g
-npm install`
+    npm install mocha -g
+    npm install
 
 Run tests
 ---
-`mocha contract-test.js`
+    mocha contract-test.js
 
 *IMPORTANT: This is a demonstration example. Tests fail by purpose!*
 
