@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/Artist",
+  "type": "object",
+  "properties": {
+    "genres": {
+      "type": "array",
+      "minItems": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 10
+    },
+    "popularity": {
+      "type": "integer",
+      "minimum": 50
+    }
+  },
+  "required": [
+    "followers",
+    "genres",
+    "name",
+    "popularity"
+  ]
+}

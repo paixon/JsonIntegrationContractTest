@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/Artists",
+  "type": "object",
+  "properties": {
+    "artists": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "/Artist#"
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "artists"
+  ]
+}

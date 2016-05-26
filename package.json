@@ -1,0 +1,16 @@
+{
+  "name": "contract-test",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://ChristophSueess@bitbucket.org/paixon/blog.json-contract-test.git"
+  },
+  "author": "Christoph Süess - Paixon",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/paixon/blog.json-contract-test#readme",
+  "devDependencies": {
+    "ajv": "^4.0.6",
+    "chai": "^3.5.0",
+    "supertest": "^1.2.0"
+  }
+}
