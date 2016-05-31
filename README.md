@@ -1,4 +1,4 @@
-# JSON Integration Contract Test
+# Integration Contract Tests
 
 Integration Contract Testing Sample using JSON Schemas, AJV, Mocha, Chai and Supertest. Explanations can be found on our blog: http://paixon.ch/Blog/Integration-Contract-Tests.
 
